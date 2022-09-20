@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.ContainerMain {
+    width: 45vw;
+    height: 90vh;
+    margin: 4rem 4rem;
+    border-radius: 1rem;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ContainerMain >span {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Yeseva One', cursive;
+    font-size: 2rem;
+}
+
+.InnerDiv1 {
+    margin: 20px;
+    height: 10vh;
+    width: 30vw;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    font-weight: bold;
+    font-family: 'Yeseva One', cursive;
+
+    font-size: 23px;
+}
+
+.InnerDiv2 {
+    margin: 10px;
+    border-radius: 1rem;
+    width: 30vw;
+    height: 50vh;
+    background-color: #fff;
+    padding: 1rem;
+    font-weight: bold;
+
+}
+
+.InnerDiv2 >input {
+    padding: 1rem;
+    width: 26.5rem;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 1px;
+    justify-content: space-between;
+
+}
+
+.Small {
+    width: 27vw;
+    height: 8vh;
+    padding: 1rem;
+    margin: 7px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(132, 166, 228);
+    align-items: center;
+}
+
+.btn {
+    width: 23rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: forestgreen;
+}

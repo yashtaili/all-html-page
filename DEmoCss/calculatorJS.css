@@ -1,0 +1,148 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.MainContainer {
+  width: 35vw;
+  height: 90vh;
+  padding: .5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.InnerDiv1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+  border-radius: 0.5rem;
+  width: 34vw;
+  height: 15vh;
+  border: 3px solid black;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.InnerDiv1 > span {
+    color: rgb(103, 103, 52);
+}
+.InnerDiv1 > span > button{
+border-radius: 3px;
+width: 20px;
+background-color: chocolate;
+}
+.InnerDiv1 > span > button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.InnerDiv2 {
+  border-radius: 1rem;
+  width: 34vw;
+  height: 25vh;
+  text-align: center;
+  background-color: white;
+}
+.InnerDiv2> input{
+border-radius: 1rem;
+padding: 4rem 3rem;
+font-size: 30px;
+height: 13vh;
+width: 34vw;
+}
+.InnerDiv3 {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  border-radius: 1rem;
+  gap: 2px;
+  height: 57vh;
+  width: 34vw;
+}
+.InnerDiv3 > button {
+  background-color: black;
+  color: wheat;
+  border-radius: 1rem;
+  font-size: 25px;
+  font-weight: bold;
+}
+.InnerDiv3 > button:hover {
+  background-color: wheat;
+  color: black;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.DivElement1 {
+  padding: 20px 0px;
+}
+
+.DivElement2 {
+  padding: 20px 0px;
+}
+.DivElement3 {
+  padding: 20px 0px;
+}
+.DivElement4 {
+  padding: 20px 0px;
+  background-color: dimgrey !important;
+}
+.DivElement5 {
+  padding: 20px 0px;
+}
+.DivElement6 {
+  padding: 20px 0px;
+}
+.DivElement7 {
+  padding: 20px 0px;
+}
+.DivElement8 {
+  padding: 20px 0px;
+  background-color: rgb(131, 64, 93) ;
+}
+.DivElement9 {
+  padding: 20px 0px;
+}
+.DivElement10 {
+  padding: 20px 0px;
+}
+.DivElement11 {
+  padding: 20px 0px;
+}
+.DivElement12 {
+  padding: 20px 0px;
+  background-color: rgb(110, 212, 204);
+}
+.DivElement13 {
+  padding: 20px 0px;
+}
+.DivElement14 {
+  padding: 20px 0px;
+}
+.DivElement15 {
+  padding: 20px 0px;
+}
+.DivElement16 {
+  padding: 20px 0px;
+  background-color: rgb(160, 107, 179) ;
+}
+.DivElement17 {
+  padding: 20px 0px;
+  grid-column: 1 / span 2;
+  background-color: darkslateblue !important;
+}
+.DivElement18 {
+  padding: 20px 0px;
+  grid-column: 3 / span 2;
+  background-color: darkslategray !important;
+}

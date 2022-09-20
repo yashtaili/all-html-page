@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../DEmoCss/demo13.css">
+</head>
+
+<body>
+    <h2>background -color:- <span id="span1">Start</span> </h2>
+    <button id="btn">Click</button>
+    <script>
+        let btn = document.getElementById('btn');
+        btn.addEventListener("click", () => {
+            a = document.body.style.backgroundColor =
+                'rgb(' + Math.round(Math.random() * 255) +
+                ',' + Math.round(Math.random() * 255) +
+                ',' + Math.round(Math.random() * 255) + ')'
+document.getElementById('span1').innerHTML=a;
+        });
+    </script>
+</body>
+
+</html>

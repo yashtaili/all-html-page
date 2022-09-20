@@ -1,0 +1,33 @@
+*{
+    max-width: 100vw;
+}
+#MainContainer{
+   
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+align-items: center; 
+background-size: cover;
+height: auto;
+}
+#CarContainer{
+
+    width: 98vw;
+    height: 30vh;
+    }
+#CarContainer > img{
+    transform: rotateY(180deg) translateX(0vw);
+    transition: all 5s ease-in-out;
+width: 13rem;
+height: 300px;
+}
+button{
+margin: 7rem 0rem;
+width: 5rem;
+font-weight: bold;
+cursor: pointer;
+}
+/* button:hover{
+    background-color: white;
+    color: black;   
+} */

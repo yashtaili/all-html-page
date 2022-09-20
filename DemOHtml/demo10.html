@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../DEmoCss//demo10.css">
+
+</head>
+<body>
+
+    <div class="MainContainer">
+        <div class="munis">-</div>
+        <div class="Num">01</div>
+        <div class="plus">+</div>
+
+    </div>
+    <script>
+        const plus = document.querySelector(".plus");
+        Num = document.querySelector(".Num");
+        munis= document.querySelector(".munis");
+   
+            let a=1;
+            plus.addEventListener("click",()=>{
+                a++;
+                Num.innerHTML=a;
+               console.log(a); 
+            });
+            munis.addEventListener("click",()=>{
+                a--;
+                Num.innerHTML=a;
+               console.log(a); 
+            });
+</script>
+    
+</body>
+</html>

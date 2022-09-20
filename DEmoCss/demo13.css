@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: red;
+}
+h2{
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+button{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 20px;
+    width: 8rem;
+    color: chocolate;
+    border: 3px solid red;
+    background-color: white;
+}
+button:hover{
+    border-color: aquamarine;
+    background-color:green;
+    color: black;
+}

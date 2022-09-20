@@ -1,0 +1,94 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+section {
+  width: 100vw;
+  background-size: cover;
+  background-image: url("../image folder/moon1.jpg");
+  height: 100vh;
+}
+.HeaderContainer {
+  display: flex;
+  padding: 1rem;
+  color: white;
+  width: 100%;
+  height: 8vh;
+  position: fixed;
+  background-color: rgb(24, 23, 36);
+  justify-content: space-between;
+  align-items: center;
+}
+.HeaderContainer > ul > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.HeaderContainer > ul > li >a{
+    color: #fff;
+    transition: .10s;
+
+    text-decoration: none;
+}
+.HeaderContainer > ul > li >a:hover{
+    color: blue;
+    transition: .10s;
+    text-decoration: line-through;
+}
+
+.HeaderContainer > ul > li > img {
+  width: 2.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 2.5rem;
+}
+.MainCOntainer_Body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 40%;
+  left: 10%;
+  right: 60%;
+  color: rgba(8, 6, 6, 0.911);
+  position: absolute;
+}
+.MainCOntainer_Body > ul {
+  list-style-type: none;
+  width: auto;
+}
+.MainCOntainer_Body > ul > li {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+  color:rgb(145, 189, 58);
+}
+.MainCOntainer_Body > ul > li > span {
+  font-size: 55px;
+  color: white;
+}
+
+section {
+  max-width: 100%;
+}
+.Div_radius {
+  width: 11vw;
+  position: absolute;
+  position: fixed;
+  height: 20vh;
+  top: 40%;
+  color: white;
+  right: 20%;
+border-radius: 50%;
+background-color:black;}
+.Div_radius >p{
+    font-size: 25px;
+    position: absolute;
+    top: 37%;
+right: 23%;
+font-weight: bold;
+    text-align: center;
+} 
+/* media quary */
+@media screen ma{
+    
+}

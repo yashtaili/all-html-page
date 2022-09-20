@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../DEmoCss/demo14.css">
+    <title>Document</title>
+</head>
+<body>
+<section>
+<h2>Counter</h2>
+ <p id="answer">+0</p>
+ <div id="btn">
+    <button id="btn1">DECREASE</button>
+    <button id="btn2">RESET</button>
+    <button id="btn3">INCREASE</button>
+
+</div>
+</section>
+<script>
+ let values=document.getElementById('answer');
+let mybtn1= document.getElementById('btn1');
+let mybtn2= document.getElementById('btn2');
+let mybtn3= document.getElementById('btn3');
+let a=0;
+mybtn1.addEventListener('click',()=>{
+    a=a-1;
+values.innerHTML=a;
+})
+mybtn3.addEventListener('click',()=>{
+a=a+1;
+values.innerHTML=a;
+})
+mybtn2.addEventListener('click',()=>{ 
+a=0;
+values.innerHTML=0;
+})
+</script>
+    
+</body>
+</html>

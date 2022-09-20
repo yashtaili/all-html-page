@@ -1,0 +1,199 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+section {
+    width: 100%;
+    height: 11vh;
+    background-color: wheat;
+}
+
+.MainHeader {
+    width: 100vw;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.2rem;
+}
+
+.Image {
+    background-size: cover;
+
+}
+
+.Image>img {
+    width: 4rem;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainHeader>div>img {
+    background-size: cover;
+    cursor: pointer;
+}
+
+.Header_Con>ul {
+    gap: 2rem;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Header_Con>ul>ul>a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.Header_Con>ul>ul>a:hover {
+    text-decoration: underline;
+    color: wheat;
+}
+
+/* start main_Container */
+main {
+    width: 100vw;
+    height: auto;
+padding: 1rem;
+    color: black;
+    display: grid;
+    justify-content: center;
+}
+main >h2{
+    padding: 0%;
+    box-sizing: 0px;
+    margin: 1rem;
+}
+.MainCon_GriD {
+    display: grid;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    margin: 1rem;
+    justify-content: center;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-auto-rows: 350px;
+    grid-gap: 10px;
+}
+.MainCon_GriD > div {
+    border: 3px solid black;
+} 
+.Grid-item1 {
+
+    grid-column: 1/2;
+    grid-row: 1/span 2;
+}
+
+.Grid-item1>img {
+    background-size: cover;
+    width: 500px;
+    height: 704px;
+}
+
+
+.Grid-item2>img {
+    background-size: contain;
+    width: 500px;
+    height: 350px;
+}
+
+.Grid-item3 {
+    grid-column: 3/4;
+    grid-row: 1/span 2;
+}
+
+.Grid-item3>img {
+    background-size: cover;
+    width: 500px;
+    height: 710px;
+}
+
+.Grid-item4>img {
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+}
+
+.Grid-item5 {
+    grid-column: 1/-2;
+    grid-row: 3/span 2;
+}
+
+.Grid-item5>img {
+    background-size: cover;
+    width: 1000px;
+    height: 720px;
+}
+
+.Grid-item6>img {
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+}
+
+.Grid-item7>img {
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+}
+
+.Grid-item8>img {
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+}
+
+.Grid-item9 {
+    grid-column: 2/-1;
+    grid-row: 5/span 2;
+}
+
+.Grid-item9>img {
+    background-size: cover;
+    width: 1000px;
+    height: 720px;
+}
+
+.Grid-item10>img {
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+}
+
+/* footer :start */
+.Mainfooter {
+    width: 100vw;
+    height: 12vh;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 2rem;
+}
+
+/* start mradia quary */
+
+@media only screen and (max-width: 750px) {
+.MainCon_GriD{
+    grid-template-columns: 2fr 2fr ;
+    grid-auto-rows: 350px;
+}
+.Grid-item3 {
+  
+    grid-column: 1/-1;
+    grid-row: 4/4;
+}
+}

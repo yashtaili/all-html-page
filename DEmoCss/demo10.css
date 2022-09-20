@@ -1,0 +1,68 @@
+* {
+  padding: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(8, 5, 36);
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+.MainContainer {
+  background-color: rgb(114, 8, 75);
+  width: 50vw;
+  margin-top: 8rem;
+  display: flex;
+  border-radius: 4rem;
+  text-align: center;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.munis {
+  color: black;
+  font-size: 30px;
+  border-radius: 4rem;
+  font-weight: bold;
+  margin-top: 10rem;
+
+  cursor: pointer;
+  width: 5rem;
+  height: 3rem;
+  background-color: #fff;
+}
+.munis:hover {
+  font-size: 35px;
+  background-color: black;
+  color: chocolate;
+}
+.Num {
+  margin-top: 10rem;
+  color: chocolate;
+  border-radius: 4rem;
+  font-size: 40px;
+  font-weight: bold;
+  width: 8rem;
+  height: 3rem;
+  background-color: #fff;
+}
+
+.plus {
+  cursor: pointer;
+  color: black;
+  font-size: 30px;
+  border-radius: 4rem;
+  font-weight: bold;
+  margin-top: 10rem;
+  width: 4rem;
+  height: 2.4rem;
+  background-color: #fff;
+}
+.plus:hover {
+  font-size: 35px;
+  background-color: black;
+  color: chocolate;
+}

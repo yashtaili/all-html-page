@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../DEmoCss/demo8.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+            console.log("Start fabo series");
+
+            var sup= -1;
+            var pra = 1;
+            for (let a = 0;a<=11; a++) {
+              let c = sup + pra;
+               console.log(c);
+              sup = pra;
+              pra = c;
+            }
+            console.log("Table_create");
+            console.log("____________________________");
+            var num = 20;
+
+            for (let i = 1; i <= 10; i++) {
+
+
+              console.log((num * i));
+            }
+            console.log("ArmStronG Number");
+            console.log("____________________________");
+            var u = 371,
+              m = 0;
+            for (let i = 0; i < u; i++) {
+              let p = u % 10;
+              let a = Math.floor(p);
+
+              m = a * a * a + m;
+              u = u / 10;
+            }
+            console.log(m);
+            console.log("____________________________");
+            console.log("Check loop year or Not  ");
+
+            let Year = 1900;
+            console.log(Year);
+
+            if (Year % 4 == 0) {
+              console.log("Leap_year");
+              if (Year % 400 == 0) {
+                console.log("And centuri_Leap_year");
+              }
+            } else {
+              console.log("Not_a_Leap_year");
+            }
+            console.log("____________________________");
+
+            console.log("Natural  Number program");
+            var NaSum=0 ;
+            for(let i=0;i<=15;i++){
+              NaSum=NaSum+i;
+            }
+            console.log(NaSum);
+            console.log("____________________________");
+            console.log("sum of all Digit program");
+
+
+            var u = 448,
+              m = 0;
+            for (let i = 0; i < u; i++) {
+              let p = u % 10;
+              let a = Math.floor(p);
+
+              m = a  + m;
+              u = u / 10;
+            }
+            console.log(m);
+            console.log("____________________________");
+            console.log("sum of all Odd Digit program");
+
+
+             var hup=0 ,jan=0 ,a;
+            for(a=1;a<=10;a++)
+      {
+       if(a%2==0)
+        {
+          console.log(a + "[_Even Values");
+          hup=hup+a;
+        }
+        else{
+          console.log(a + "[_values Odd");
+ jan=jan+a;
+        }
+      }
+      console.log("sum _of even and Odd values");
+
+      console.log(hup +"_[sum _of even values");
+      console.log(jan +"_[Sum_of odd values");
+    </script>
+  </body>
+</html>

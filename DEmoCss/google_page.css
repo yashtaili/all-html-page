@@ -1,0 +1,124 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.646);
+    width: 100vw;
+    height: 100vh;
+}
+
+li a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+ul {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: end;
+    align-items: center;
+}
+
+li {
+    margin-top: 2px;
+    list-style-type: none;
+
+}
+
+li:hover {
+    padding: 0.5px;
+    color: black;
+
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid greenyellow;
+}
+img:hover{
+    border: 3px solid sandybrown;
+}
+
+a:hover {
+    color: black;
+    border-radius: 10px;
+
+}
+
+.logo {
+    font-family: 'Yeseva One', cursive;
+    font-size: 9rem;
+    color: wheat;
+    display: flex;
+    margin-top: 20vh;
+    justify-content: center;
+    cursor: pointer;
+}
+.sear{
+    width: 25rem;
+  text-align: center;
+    padding: 0.5rem;
+    justify-content: center;
+    transform: translate(-50% -50%);
+    border-radius: 20px;
+    border: 4px solid wheat;
+    margin-left: 35rem;
+    margin-top: 1rem;
+}
+input:hover{
+    background-color: antiquewhite;
+    color: black;
+    
+}
+button{
+   
+   width: 8rem;
+      padding: 0.1rem;
+   font-size: 15px;
+      border-radius: 10px;
+      border: 4px solid wheat;
+      margin-left: 38rem;
+      margin-top: 1rem;
+}
+
+button:hover{
+    background-color: black;
+    color: wheat;
+}
+.btn{
+    width: 8rem;
+    padding: 0.1rem;
+ font-size: 15px;
+    border-radius: 10px;
+    border: 4px solid wheat;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.foot{
+position: relative;
+top: 27vh;    
+}
+h4{
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    margin-left: 1.5rem;
+    color: wheat;
+}
+.ffoot{
+  float: left;
+  margin-left: 25px ;
+  position: relative;
+  top: 28vh; 
+}
+.fffoot{
+    float: right;
+margin-right: 3rem;
+    position: relative;
+    font-size: 19px;
+    top: 28vh;
+    color: wheat;
+}

@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+background-color: rgb(80, 129, 156);
+color: wheat;
+padding: 2rem;
+height: 12vh;
+}
+   
+#Ul_LIst{
+    display: flex;
+    gap: 2rem;
+}
+ul >li{
+    list-style-type: none;
+    cursor: pointer;
+
+}
+.material-symbols-outlined{
+    display: none;
+
+}
+
+#narBar{
+    display: none;
+}
+
+@media screen and (max-width: 750px){
+    #Ul_LIst{
+        display: none;
+    }
+    .material-symbols-outlined{
+        display: block;
+    
+    }
+    nav{
+        padding: 0%;
+    }
+    .OCde{
+        display: none;
+
+    }
+    }

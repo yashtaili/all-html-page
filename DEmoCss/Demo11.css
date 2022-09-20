@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(202, 188, 188);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContantValue{
+    width: 30vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+
+}
+/* start:Icon */
+.Icon1{
+    width: 5rem;
+    border-radius: .7rem;
+    border: 2px solid rgb(80, 73, 86);
+    background-color:darkgray;
+    cursor: pointer;
+    height: 2.5rem;
+}
+.spa1{
+    color: aqua;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+    font-size: 25px;
+}
+.spa2{
+    color: yellow;
+    font-weight: bold;
+    font-size: 25px; 
+    padding-top: 1rem;
+}
+.Icon2{
+    width: 5rem;
+    background-color:darkgray;
+    padding-left: 1.7rem;
+    padding-top: 3px;
+    cursor: pointer;
+    border-radius: .7rem;
+    color: aqua;
+    border: 2px solid rgb(80, 73, 86);
+    height: 2.5rem;
+}
+
+
+.Icon3{
+    border-radius: .7rem;
+    width: 5rem;
+    border: 2px solid rgb(80, 73, 86);
+    height: 2.5rem;
+    cursor: pointer;
+    background-color:darkgray;
+    color: aqua;
+    padding-left: 1.5rem;
+    padding-top: 5px;
+}
+/* start : Grid-item */
+.Grid-item1{
+    width: 5rem;
+    border-radius: .7rem;
+    cursor: pointer;
+    height: 5rem;
+    background-color: rgb(80, 73, 86);  
+}
+/* start Grid-Box buttom */
+.Grid-Box1{
+    width: 5rem;
+    border: 2px solid rgb(80, 73, 86);
+    height: 2.8rem;
+    cursor: pointer;
+    border-radius: .7rem;
+    background-color: rgb(70, 189, 192);
+}
+.Grid-Box1 > span{
+    font-size: 12px;
+margin-left: 1rem;
+}
+.Grid-Box1 > span > h2{
+margin-left: 2rem;
+
+}
+.Grid-Box2{
+    cursor: pointer;
+    width: 5rem;
+    border-radius: .7rem;
+    border: 2px solid rgb(80, 73, 86);
+    height: 2.8rem;
+    background-color: darkgrey;
+}
+.Grid-Box2 > span{
+    font-size: 12px;
+margin-left: 1.5rem;
+}
+.Grid-Box2 > span > h2{
+    margin-left: 2rem;
+    
+    }
+.Grid-Box3{
+    cursor: pointer;
+    width: 5rem;
+    border-radius: .7rem;
+    height: 2.8rem;
+    border: 2px solid rgb(80, 73, 86);
+    background-color: yellow;
+}
+.Grid-Box3 > span{
+    font-size: 12px;
+margin-left: 1rem;
+}
+.Grid-Box3 > span > h2{
+    margin-left: 2rem;
+    
+    }

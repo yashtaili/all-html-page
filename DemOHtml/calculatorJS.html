@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//DEmoCss/calculatorJS.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="MainContainer">
+
+        <div class="InnerDiv1"> <span>Calc</span> <span>Theme <button class="btn1">1</button> <button
+                    class="btn2">2</button> <button class="btn3">3</button></span></div>
+        <div class="InnerDiv2">
+            <span class="UperCase"></span>
+            <input type="text" id="Input_Tag">
+        </div>
+        <div class="InnerDiv3">
+            <button class="DivElement1">7</button>
+            <button class="DivElement2">8</button>
+            <button class="DivElement3">9</button>
+            <button class="DivElement4">C</button>
+            <button class="DivElement5">4</button>
+            <button class="DivElement6">5</button>
+            <button class="DivElement7">6</button>
+            <button class="DivElement8">+</button>
+            <button class="DivElement9">1</button>
+            <button class="DivElement10">2</button>
+            <button class="DivElement11">3</button>
+            <button class="DivElement12">-</button>
+            <button class="DivElement13">.</button>
+            <button class="DivElement14">0</button>
+            <button class="DivElement15">/</button>
+            <button class="DivElement16">X</button>
+            <button class="DivElement17">00</button>
+            <button class="DivElement18">=</button>
+        </div>
+        <script>
+            let disply = document.getElementById("Input_Tag");
+            btn = document.querySelectorAll(".InnerDiv3 button");
+            console.log(btn)
+            screenvalue = " ";
+            for (item of btn) {
+
+                item.addEventListener('click', (e) => {
+                    buttonText = e.target.innerText;
+                    // console.log('button text is', buttonText)
+                    if (buttonText == "X") {
+                        buttonText = "*";
+                        screenvalue += buttonText;
+                        disply.value = screenvalue;
+
+                    } else if (buttonText == "C") {
+
+                        disply.value = 0;
+                        screenvalue = " ";
+
+
+                    } else if (buttonText == "=") {
+                        disply.value = eval(screenvalue);
+                    }
+                    else if (buttonText == "reset") {
+                        buttonText = "00";
+                        screenvalue += buttonText;
+                        disply.value = screenvalue;
+
+                    }
+                    else {
+                        screenvalue += buttonText;
+                        disply.value = screenvalue;
+                    }
+
+                })
+            }
+        </script>
+
+
+</body>
+
+</html>

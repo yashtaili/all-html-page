@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    display:flex ;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+.OuterCon{
+    width: 25vw;
+    height: 55vh;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: grey;
+}
+.OuterCon > span{
+    font-size: 2.5rem;
+    cursor: pointer;
+    background-color:chocolate ;
+    border-radius: 50%;
+    margin: .5rem;
+}
+.OuterCon > h2{
+margin: 0.5rem;
+cursor: pointer;
+
+}
+.OuterCon > p{
+margin: 1rem;
+}
+.circle{
+    display: flex;
+    padding: 0%;
+    margin: .3rem;
+}
+.Dmain{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:wheat;
+    width: 85px;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    height: 35px;
+
+}
+.Dmain >span{
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: grey;
+}
+.btn{
+    margin: .5rem;
+    margin-top: 2rem;
+    width: 17vw;
+    height: 5vh;    
+    border-radius: 2rem;
+    font-weight: bold;
+    word-spacing: 3px;
+    background-color: chocolate;
+}
+.btn:hover{
+    background-color: coral;
+    cursor: pointer;
+}

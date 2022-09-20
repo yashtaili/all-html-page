@@ -1,0 +1,70 @@
+*{
+    padding:0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.MainCon{
+   position: relative;
+
+}
+#inner-ConDiv{
+    width: 600px;
+    height: 300px;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+ position: absolute;
+ border: 3px solid rgb(172, 132, 132);
+padding-top: 7rem;
+display: none;
+top: 300px;
+ left: 500px;
+border-radius: 5px;
+}
+
+#inner-con1{
+    width: 500px;
+    height: 250px;
+    position: relative;
+ border: 3px solid green;
+ padding: 2rem;
+    text-align: center;
+    background-color: white;
+ position: absolute;
+ z-index: 1;
+top: 330px;
+left: 550px;
+border-radius: 5px;
+}
+h2{
+    color: rgb(8, 8, 9);
+    font-size: 50px;
+    font-weight: bold;
+}
+button{
+    margin-top: 5rem;
+    padding: 5px 20px;
+    background-color:white;
+    color: darkcyan;
+    border-radius: 10px;
+    font-size: 20px;
+}
+button:hover{
+    background-color:darkcyan;
+    color: white;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    position: absolute;
+    top: 0%;
+    font-size: 40px;
+color: red;
+    right: 0%;
+    padding: 1rem;
+}
+.material-symbols-outlined:hover{
+    font-weight: bolder;
+    padding: 1.1rem;
+    cursor: pointer;
+ 
+}

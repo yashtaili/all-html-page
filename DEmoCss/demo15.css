@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+#mainContainer{
+    background-color: silver;
+    width: 40vw;
+    top: 10rem;
+    position:absolute;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    border-radius: 3rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#Div1 {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#Div1 > img{
+    border-radius: 50%;
+}
+#Div2{
+    display: flex;
+    border-radius: 3rem;
+    padding: .5rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.btnn{
+ color: wheat;  
+   background-color: black;
+   padding: .5rem;
+   margin: .5rem;
+   border-radius: 3rem;
+
+}
+@media screen and (max-width: 580px){
+header{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+   padding: 2rem;
+    
+}
+}

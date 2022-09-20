@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.HeaderMain{
+    margin: 1rem;
+    padding: 1.5rem;
+    border: 3px solid black;
+}
+.HeaderMain > ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 2rem;
+}
+.HeaderMain > ul > li >a {
+    text-decoration: none;
+    font-size: 17px;
+}
+.HeaderMain > ul > li >a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* footer start */
+    .topD{
+    margin-left: 1rem;
+}
+.topD > ul > li{
+    list-style-type: none;
+    font-size: 18px;
+}

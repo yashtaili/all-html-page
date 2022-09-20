@@ -1,0 +1,26 @@
+a{
+    background-color: black;
+    color: lemonchiffon;
+    text-decoration: none;
+}
+h2 {
+    background-color: black;
+    color: lemonchiffon;
+    text-decoration: none; 
+}
+.tOne{
+    background: url(..//marek-piwnicki-jn-aEo2SBb4-unsplash.jpg);
+    width: 100%;
+    height: auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+li{
+    padding: 4px 4px;
+    margin: 3px 3px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
